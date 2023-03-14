@@ -1,0 +1,104 @@
+/* body{
+    background-color: #F0F4EF;
+    color: #0D1821;
+    height: 100vh;
+    width: 100vw;
+}
+form{
+    margin: auto;
+    text-align: center;
+}
+input{
+    padding: 10px;
+    margin: 20px;
+    width: 120px;
+    border-color: #0D1821;
+    border-radius: 7px;
+    background-color: #F0F4EF;
+    color: #0D1821;
+    font-size: large;
+    text-align: center;
+}
+div.container{
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+div.header{
+    margin: 0;
+    border: 0;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    height: 10vh;
+    width: 100vw;
+    color: #0D1821
+}
+div.center{
+    margin: 0;
+    border: 0;
+    width: 100vw;
+    height: 90vh;
+    background-color: #BFCC94;
+    font-size: larger;
+    font-weight: 800;
+}
+.risultato{
+    padding: 10px;
+    margin: 20px;
+}
+palette: https: //coolors.co/0d1821-344966-b4cded-f0f4ef-bfcc94 */
+
+.header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.center{
+    background-color: #f2f2f2;
+    margin: 0;
+    border: 0;
+    width: 100vw;
+    height: 90vh;
+}
+
+form {
+    /* margin-top: 50px; */
+    text-align: center;
+}
+
+input,
+span {
+    display: inline-block;
+    margin: 10px;
+}
+
+input[type="number"] {
+    width: 70px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+span {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+body{
+    margin: 0;
+}
+
+input[type="submit"] {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>Calcolo Manodopera</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1>Calcolo Manodopera</h1>
+            </div>
+            <div class="center">
+                <form
+                    onsubmit="calcolaManodopera()"
+                    name="formManodopera"
+                    id="formManodopera"
+                >
+                    <span class="label"
+                        >Inserire il prezzo di acquisto (con IVA):</span
+                    >
+                    <input
+                        type="number"
+                        name="valoreAcquisto"
+                        id="valoreAcquisto"
+                        value="0"
+                        min="0"
+                    />
+                    <br />
+                    <span class="label">Inserire il prezzo di vendita:</span>
+                    <input
+                        type="number"
+                        name="valoreVendita"
+                        id="valoreVendita"
+                        value="0"
+                        min="0"
+                    />
+                    <br />
+                    <input type="submit" value="Conferma" />
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
